@@ -18,12 +18,12 @@ per iniziare dividere questo esercizio in più parti dove:
 
 - scrivere un programma che stampi i numeri da 1 a 100:
 
-per i = 1; i >= 100; i++
+per i = 1; i <= 100; i++
     stampa i
 
 - tutti i numeri multipli di 3 al posto del numero hanno "Fizz"
 
-se i % 3 === 0
+se se i % 3 === 0 and i % 5 === 0
 
     allora    i = 'Fizz'
 
@@ -31,6 +31,9 @@ altrimenti se i % 5 === 0
 
     allora i = 'Buzz'
 
-altrimenti se i % 3 === 0 and i % 5 === 0
+altrimenti se i % 3 === 0
 
     allora i = 'FizzBuzz'
+
+altrimenti 
+    stampa i
