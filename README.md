@@ -14,7 +14,7 @@ per iniziare dividere questo esercizio in più parti dove:
 
 4. tutti i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”
 
-### risoluzione problemi sopra indicati
+### risoluzione problemi sopra indicati in JavaScript
 
 - scrivere un programma che stampi i numeri da 1 a 100:
 
@@ -37,3 +37,11 @@ altrimenti se i % 3 === 0
 
 altrimenti 
     stampa i
+
+## parte 2 dell'esercizio
+
+Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.
+
+per eseguire questa richiesta possiamo decidere di operare cosi: 
+
+- creare un oggetto lista di tipo "ul" in html e creare poi i vari elementi della lista in javascript
