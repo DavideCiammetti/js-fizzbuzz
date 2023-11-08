@@ -45,3 +45,11 @@ Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un ele
 per eseguire questa richiesta possiamo decidere di operare cosi: 
 
 - creare un oggetto lista di tipo "ul" in html e creare poi i vari elementi della lista in javascript
+
+## parte 3 dell'esercizio
+
+Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz. Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
+
+per fare questa seconda parte bonus ho crato un tag MAIN html in html e nel js file ho creato i tag p dove in css ho i rispettivi stili nel selettore "p"
+successivamente per colorare i rispettivi quadrati ho aggiunto una classe ai tag "p" creati all'interno del js file 
+ list.classList.toggle('fizz-color'); -----> questa è una classe esempio 
